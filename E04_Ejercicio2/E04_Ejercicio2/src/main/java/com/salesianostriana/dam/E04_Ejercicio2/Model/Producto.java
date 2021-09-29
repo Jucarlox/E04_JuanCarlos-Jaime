@@ -23,4 +23,9 @@ public class Producto {
     @ManyToOne
     private Categoria categoria;
 
+
+
+
+    public Producto(String nombre, String pvp, String categoria, String imagen) {
+    }
 }
