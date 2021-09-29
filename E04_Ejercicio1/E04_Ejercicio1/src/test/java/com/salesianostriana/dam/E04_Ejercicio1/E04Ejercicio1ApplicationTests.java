@@ -1,4 +1,4 @@
-package com.salsianostriana.dam.E04_Ejercicio1;
+package com.salesianostriana.dam.E04_Ejercicio1;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
