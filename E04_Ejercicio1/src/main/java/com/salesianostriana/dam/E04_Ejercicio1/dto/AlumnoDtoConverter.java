@@ -18,15 +18,15 @@ public class AlumnoDtoConverter {
         );
     }
 
-   /* public GetAlumnoDto alumnoToGetAlumnoDto(Alumno a) {
+    public GetAlumnoDto alumnoToGetAlumnoDto(Alumno a) {
         return GetAlumnoDto
                 .builder()
                 .nombre(a.getNombre())
-                .loc(a.getLoc())
-                .ubicacion(String.format("%s (%s)", a.getCiudad(), a.getPais()))
-                .categoria(a.getCategoria().getNombre())
+                .apellido1(a.getApellido1())
+                .apellido2(a.getApellido2())
+                .movil(a.getTelefono())
                 .build();
-    */
+    }
 
 
 }
