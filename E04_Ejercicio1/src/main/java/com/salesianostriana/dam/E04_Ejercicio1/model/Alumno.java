@@ -24,13 +24,8 @@ public class Alumno {
     @ManyToOne
     private Direccion direccion;
 
-    public Alumno(String nombre, String apellido1, String apellido2, String telefono, String email, Curso cuso, Direccion direccion) {
-        this.nombre = nombre;
-        this.apellido1 = apellido1;
-        this.apellido2 = apellido2;
-        this.telefono = telefono;
-        this.email = email;
-        this.cuso = cuso;
-        this.direccion = direccion;
+
+
+    public Alumno(String nombre, String apellido1, String apellido2, String email, String telefono, Long direccionId, Long cursoId) {
     }
 }
